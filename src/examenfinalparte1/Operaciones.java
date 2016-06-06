@@ -4,7 +4,7 @@ package examenfinalparte1;
  * En esta clase,es donde se declaran los metodos.
  * @author igonzalezcastro
  */
-public class Principal {
+public class Operaciones {
 
     int i;
 
@@ -13,22 +13,22 @@ public class Principal {
      * @param j
      * @param m
      */
-    public Principal(int j, int m) {
-        i = Operacion(j, m);
+    public Operaciones(int j, int m) {
+        i = met(j, m);
     }
 
     /**
      *Este metodo le pasamos dos valores y realiza una operacion de resta.
      * @param j
      */
-    public Principal(int j) {
-        i = Operacion(j, j);
+    public Operaciones(int j) {
+        i = met(j, j);
     }
 
     /**
      *Este metodo iguala el valor a -1.
      */
-    public Principal() {
+    public Operaciones() {
         i = -1;
     }
 
@@ -38,7 +38,7 @@ public class Principal {
      * @param x1
      * @return
      */
-    public int Operacion(int x, int x1) {
+    public int met(int x, int x1) {
         return x + x1;
     }
 }
