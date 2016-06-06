@@ -2,6 +2,7 @@ package examenfinalparte1;
 
 /**
  * En esta clase,es donde se declaran los metodos.
+ *
  * @author igonzalezcastro
  */
 public class Operaciones {
@@ -9,7 +10,8 @@ public class Operaciones {
     int i;
 
     /**
-     *Este metodo le pasamos dos valores y realiza una operacion de suma.
+     * Este metodo le pasamos dos valores y realiza una operacion de suma.
+     *
      * @param j
      * @param m
      */
@@ -18,7 +20,8 @@ public class Operaciones {
     }
 
     /**
-     *Este metodo le pasamos dos valores y realiza una operacion de resta.
+     * Este metodo le pasamos dos valores y realiza una operacion de resta.
+     *
      * @param j
      */
     public Operaciones(int j) {
@@ -26,14 +29,16 @@ public class Operaciones {
     }
 
     /**
-     *Este metodo iguala el valor a -1.
+     * Este metodo iguala el valor a -1.
      */
     public Operaciones() {
         i = -1;
     }
 
     /**
-     * En este metodo le pasamos los valores de x,x1 y nos devuelve el resultado de esa operacion.
+     * En este metodo le pasamos los valores de x,x1 y nos devuelve el resultado
+     * de esa operacion.
+     *
      * @param x
      * @param x1
      * @return
